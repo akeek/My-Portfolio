@@ -13,9 +13,19 @@
       font-size: 1.5em;
       margin-left: 40px;
   }
+
+  .header-image{
+    width: 100%;
+  }
+
+  .header-image img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
   
   nav{
-    background: rgba(57, 148, 204, 0.062);
+
     height: 80px;
     width: 100%;
   }
@@ -71,6 +81,8 @@
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .big-portfolio{
@@ -136,36 +148,61 @@
     float: right;
   }
 
-
-
-
-
-
-
-  @media only screen and (max-width: 1050px) {
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: rgb(110, 109, 109);
-      left: -100%;
-      transition: all 0.5s;
-      text-align: center;
-      z-index: 1;
-    }
-    nav ul li{
-      display: block;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    nav a:hover,a.active{
-      background: none;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
+  footer{
+    text-align: center;
+    padding: 10px 0;
   }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+*{
+  font-size: large;
+}
+.checkbtn{
+  display: block;
+}
+ul{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgb(110, 109, 109);
+  left: -100%;
+  transition: all 0.5s;
+  text-align: center;
+  z-index: 1;
+}
+nav ul li{
+  display: block;
+}
+nav ul li a{
+  font-size: 20px;
+}
+nav a:hover,a.active{
+  background: none;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+.card{
+  width: 100%;
+}
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.git, .live{
+  margin: 5px;
+}
+
+}
