@@ -10,11 +10,12 @@
       line-height: 80px;
       list-style: none;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1.5em;
+      margin-left: 40px;
   }
   
   nav{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(57, 148, 204, 0.406);
     height: 80px;
     width: 100%;
   }
@@ -59,7 +60,82 @@
     display: none;
   }
 
+  main{
+    width: 100%;
+  }
 
+  .welcome-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .big-portfolio{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .card{
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    border-radius: 2%;
+    margin: 5px auto;
+    background-color: rgba(22, 76, 12, 0.075);
+  }
+
+  .card h2{
+    padding: 10px 0;
+  }
+
+  .card p{
+    padding: 10px 0;
+  }
+
+  .card img{
+    max-width: 100%;
+    opacity: 0.9;
+
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+  }
+
+  .links{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    height: 40px;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(50%);
+  }
+
+  .links a:hover{
+    background-color: rgb(122, 199, 247);
+  }
+
+  .git{
+    position: relative;
+    float: left;
+  }
+
+  .live{
+    float: right;
+  }
 
 
 
