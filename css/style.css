@@ -6,7 +6,7 @@
   }
 
   #blogname{
-      color: white;
+      color: rgb(15, 101, 17);
       line-height: 80px;
       list-style: none;
       text-decoration: none;
@@ -15,7 +15,7 @@
   }
   
   nav{
-    background: rgba(57, 148, 204, 0.406);
+    background: rgba(57, 148, 204, 0.184);
     height: 80px;
     width: 100%;
   }
@@ -32,7 +32,7 @@
   }
   
   nav ul li a{
-    color: white;
+    color: rgb(15, 101, 17);
     text-transform: uppercase;
     font-size: 17px;
     padding: 5px 10px;
@@ -42,7 +42,7 @@
   }
   
   a.active, nav ul li a:hover{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.2);
     transition: 0.5s;
   }
 
@@ -86,8 +86,8 @@
     width: 80%;
     height: auto;
     border-radius: 2%;
-    margin: 5px auto;
-    background-color: rgba(22, 76, 12, 0.075);
+    margin: 20px auto;
+    background-color: rgba(22, 76, 12, 0.05);
   }
 
   .card h2{
