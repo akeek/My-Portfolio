@@ -17,12 +17,12 @@
 
   .header-image{
     width: 100%;
-    height: 150px;
+    height: 250px;
   }
 
   .header-image img{
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
   }
   
@@ -218,5 +218,11 @@ nav a:hover,a.active{
   }
   a{
     font-size: 0.8rem;
+  }
+  .header-image{
+    height: 150px;
+  }
+  .header-image img{
+    height: 150px;
   }
 }
