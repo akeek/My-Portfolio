@@ -11,11 +11,12 @@
       list-style: none;
       text-decoration: none;
       font-size: 1.5em;
-      margin-left: 40px;
+      margin-left: 20px;
   }
 
   .header-image{
     width: 100%;
+    height: 150px;
   }
 
   .header-image img{
@@ -25,7 +26,7 @@
   }
   
   nav{
-
+    background-color: rgba(209, 122, 0, 0.287);
     height: 80px;
     width: 100%;
   }
@@ -161,7 +162,7 @@
 
 @media only screen and (max-width: 1050px) {
 *{
-  font-size: large;
+  font-size: medium;
 }
 .checkbtn{
   display: block;
@@ -191,8 +192,6 @@ nav a:hover,a.active{
 .card{
   width: 100%;
 }
-
-
 .links{
   display: flex;
   flex-direction: column;
