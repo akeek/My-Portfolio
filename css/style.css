@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
   }
 
   #blogname{
@@ -137,7 +138,7 @@
   }
 
   .links a:hover{
-    background-color: rgb(122, 199, 247);
+    background-color: rgba(15, 101, 16, 0.158);
   }
 
   .git{
@@ -161,9 +162,6 @@
 
 
 @media only screen and (max-width: 1050px) {
-*{
-  font-size: medium;
-}
 .checkbtn{
   display: block;
 }
@@ -203,5 +201,22 @@ nav a:hover,a.active{
 .git, .live{
   margin: 5px;
 }
+}
 
+@media only screen and (max-width: 750px) {
+  #blogname{
+    font-size: 1.2rem;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 0.85rem;
+  }
+  a{
+    font-size: 0.8rem;
+  }
 }
